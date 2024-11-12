@@ -1,0 +1,225 @@
+/* App.css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f4f8;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input[type='text'] {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  input[type='text']:focus {
+    border-color: #007bff;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .task-list {
+    list-style: none;
+  }
+  
+  .task-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    font-size: 18px;
+  }
+  
+  .task-item:last-child {
+    border-bottom: none;
+  }
+
+  /* App.css */
+
+.task-list {
+    margin-top: 20px;
+  }
+  
+
+  
+ 
+
+  /* App.css */
+
+ 
+
+  /* App.css */
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+  }
+  
+  .task-item:hover {
+    background-color: #e9ecef;
+  }
+  
+  .delete-button {
+    padding: 5px 10px;
+    background-color: #ff4d4d;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .delete-button:hover {
+    background-color: #cc0000;
+  }
+
+
+  
+
+/* App.css */
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  padding: 10px 15px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.task-list {
+  margin-top: 20px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #f8f9fa;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.task-item:hover {
+  background-color: #e9ecef;
+}
+
+/* Button group to align delete and modify buttons to the right */
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+/* Delete button styling */
+.delete-button, .modify-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.delete-button {
+  background-color: #ff4d4d;
+}
+
+.delete-button:hover {
+  background-color: #cc0000;
+}
+
+.modify-button {
+  background-color: #4CAF50;
+}
+
+.modify-button:hover {
+  background-color: #388E3C;
+}
+
+  
+  
+  
+  
